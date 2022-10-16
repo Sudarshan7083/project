@@ -1,0 +1,15 @@
+<script>
+    class tv{
+        constructor(){
+            console.log("Implicit Constructor");
+            this.channel="Star Sports HD"  //this means it belongs to class & accessible throughout class
+        }
+        vol(){
+            console.log("oops it is");
+            console.log(this.channel);
+        }
+    }
+    var rec=new tv();
+    var rem=new tv();
+    rec.vol(); 
+</script>
